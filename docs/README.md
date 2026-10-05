@@ -22,14 +22,16 @@ This project implements and verifies an **AMBA APB (Advanced Peripheral Bus) sla
 ---
 
 ## Microarchitecture
-![Microarchitecture](img/uArch.png)
+<img width="346" height="292" alt="image" src="https://github.com/user-attachments/assets/30f9e886-ff95-42c3-a210-dc5715f38944" />
+
 
 The slave design is implemented using a **Mealy FSM** with the following states:
 - **IDLE**
 - **SETUP**
 - **ACCESS**
 
-![Microarchitecture](img/fsm.png)
+<img width="531" height="283" alt="image" src="https://github.com/user-attachments/assets/5d844906-f595-4f40-b960-46bce242b664" />
+
 
 Key signals:
 - `PSELx`, `PENABLE`, `PWRITE`, `PREADY`, `PSLVERR`
