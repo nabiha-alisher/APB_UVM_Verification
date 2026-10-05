@@ -1,0 +1,25 @@
+# Synopsys VCS generated files
+simv
+simv.daidir/
+csrc/
+*.daidir/
+*.vdb/
+*.vpd
+*.key
+*.log
+*.dump
+*.history
+
+# Simulation outputs
+*.out
+*.fsdb
+*.vcd
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
